@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baleine - Connexion</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="auth-container">
+    <h1>🔑 Baleine</h1>
+    <p>Entrez le code à 6 chiffres reçu par email</p>
+    <input type="text" id="codeInput" placeholder="XXXXXX" maxlength="6" oninput="checkCode(this.value)" />
+    <button onclick="submitCode()">Se connecter</button>
+    <p><a href="register.html">Pas encore de compte ? Inscrivez-vous</a></p>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
